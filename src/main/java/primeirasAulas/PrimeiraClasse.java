@@ -1,3 +1,5 @@
+package primeirasAulas;
+
 public class PrimeiraClasse {
     /*Classe: Definimos Objetos, Metodos, Atributos...
 - Nome da classe, igual nome do arquivo
