@@ -13,7 +13,7 @@ public class PessoaTest {
         professor.setName  ("Jaque");
         professor.setAge  (28);
         professor.setSalario(5000);
-        System.out.println(professor.imprimirProfessor());
+        System.out.println(professor.imprimir());
 
         Aluno aluno = new Aluno();
         aluno.setId("22244442");

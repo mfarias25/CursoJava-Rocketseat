@@ -36,13 +36,5 @@ public class Pessoa {
      return "O nome da pessoa é: " + name +
              "  a idade é: " + age + " e o documento: " + id;
     }
-    String imprimirProfessor() {
-        return "O nome da pessoa é: " + name +
-                "  a idade é: " + age + " o documento: " + id + "e a Matriculo do Aluno: ";
-    }
-    String imprimirAluno() {
-        return "O nome da pessoa é: " + name +
-                "  a idade é: " + age + " e o documento: " + id;
-    }
 
 }
