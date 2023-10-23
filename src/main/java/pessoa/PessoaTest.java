@@ -3,16 +3,25 @@ package pessoa;
 public class PessoaTest {
     public static void main(String[] args) {
         Pessoa pessoa = new Pessoa();
-        pessoa.id = "113141545";
-        pessoa.name = "Mateus";
-        pessoa.age = 29;
-        System.out.println(pessoa);
+        pessoa.setId("113141545");
+        pessoa.setName("Mateus");
+        pessoa.setAge(29);
+        System.out.println(pessoa.imprimir());
 
-        Pessoa pessoa2 = new Pessoa();
-        pessoa2.id = "113141545";
-        pessoa2.name = "Jaque";
-        pessoa2.age = 28;
+        Professor professor = new Professor();
+        professor.setId  ("113141545");
+        professor.setName  ("Jaque");
+        professor.setAge  (28);
+        professor.setSalario(5000);
+        System.out.println(professor.imprimirProfessor());
 
-        System.out.println(pessoa2.imprimir());
+        Aluno aluno = new Aluno();
+        aluno.setId("22244442");
+        aluno.setName("Joao");
+        aluno.setAge(29);
+        aluno.setMatricula("14423");
+        System.out.println(aluno.imprimir());
+
+
     }
 }
